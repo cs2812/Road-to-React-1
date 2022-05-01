@@ -1,0 +1,57 @@
+#navbar{
+    display: flex;
+    text-align: center;
+}
+#navbar>h1{
+    margin-left: 40%;
+
+}
+
+body{
+    background-color: rgb(197, 195, 195);
+}
+h1{
+    margin-left: 33%;
+    color: darkcyan;
+}
+#entry{
+    /* border: solid; */
+    width: 70%;
+    margin-left: 15%;
+
+}
+#city{
+width: 60%;height: 40px;
+text-align: center;
+font-size: large;
+font-weight: bold;
+border-radius: 9px;
+border: 2px solid cadetblue;
+}
+#btn{
+width: 30%;height: 45px;
+border-radius: 9px;
+background-color: rgb(118, 233, 72);
+
+}
+
+#container{
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 30px 40px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    width: 70%;
+    display: flex;
+    /* border: solid; */
+    justify-content: space-evenly;
+}
+#container>div{
+    background-color: rgb(253, 169, 59);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 9px;
+    text-align: center;
+    width: 10%;
+    padding: 10px;
+    /* border: solid; */
+}
